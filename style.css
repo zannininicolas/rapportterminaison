@@ -1,4 +1,13 @@
-﻿#onglets
+﻿#content
+{
+	display: inline-block;
+	width:600;
+	text-align: left;
+	background-color: #CCCCCC;
+	padding:30;
+}
+
+#onglets
 {
     font : bold 11px Batang, arial, serif;
     list-style-type : none;
@@ -34,8 +43,19 @@
     background : #fff;
 }
 
+html
+{
+	text-align: center;
+}
+
+body
+{
+    display: inline-block;
+}
+
 h1
 {
+	text-align: center;
 	color:red;
 }
 
